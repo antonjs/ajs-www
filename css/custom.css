@@ -1,0 +1,57 @@
+:root {
+	--nc-font-sans: 'Raleway', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+
+	/* Light theme */
+	--nc-tx-1: #000000;
+	--nc-tx-2: #1A1A1A;
+	--nc-bg-1: #FFFFFF;
+	--nc-bg-2: #F6F8FA;
+	--nc-bg-3: #E5E7EB;
+	--nc-lk-1: #1A1A1A;
+	--nc-lk-2: #1A1A1A;
+	--nc-lk-tx: #FFFFFF;
+	--nc-ac-1: #79FFE1;
+	--nc-ac-tx: #0C4047;
+
+	/* Dark theme */
+	/* --nc-d-tx-1: #ffffff; */
+	/* --nc-d-tx-2: #eeeeee; */
+	/* --nc-d-bg-1: #000000; */
+	/* --nc-d-bg-2: #111111; */
+	/* --nc-d-bg-3: #222222; */
+	/* --nc-d-lk-1: #3291FF; */
+	/* --nc-d-lk-2: #0070F3; */
+	/* --nc-d-lk-tx: #FFFFFF; */
+	/* --nc-d-ac-1: #7928CA; */
+	/* --nc-d-ac-tx: #FFFFFF; */
+}
+
+.name {
+  margin-top: 1em;
+  font-size: 10em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.name .at {
+  font-weight: 100;
+  color: var(--nc-bg-3);
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+nav a {
+  flex: 1 1 auto;
+  text-align: center;
+  border-left: 1px solid black;
+}
+
+nav a:first-of-type {
+  border: none;
+}
+
